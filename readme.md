@@ -7,10 +7,10 @@ The human heart is a powerful pump. A heart attack (myocardial infarction) happe
 - **Age**: Age of the patient
 - **Sex**: Sex of the patient (1 = male; 0 = female)
 - **cp**: Chest Pain type
-  - **Value 0**: Typical angina
-  - **Value 1**: Atypical angina
-  - **Value 2**: Non-anginal pain
-  - **Value 3**: Asymptomatic
+  - **Value 0**: Typical angina (The standard, recognizable pain caused by a clogged heart artery, i.e. pressure or squeezing in the chest)
+  - **Value 1**: Atypical angina (Chest pain that feels unusual or different from the standard type, i.e. sharp or off-center pain)
+  - **Value 2**: Non-anginal pain (Pain that is probably not related to a heart problem, likely from muscles, acid reflux, etc)
+  - **Value 3**: Asymptomatic (The patient does not feel any chest pain at all)
 - **trtbps**: Resting blood pressure (in mm Hg)
 - **chol**: Cholesterol in mg/dl
 - **fbs**: Fasting blood sugar > 120 mg/dl (1 = True; 0 = False)
@@ -24,3 +24,4 @@ The human heart is a powerful pump. A heart attack (myocardial infarction) happe
 - **target**: Diagnosis target
   - **0**: Less chance of heart attack
   - **1**: More chance of heart attack
+
