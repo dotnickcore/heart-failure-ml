@@ -1,4 +1,6 @@
 # Heart Attack Machine Learning Analysis
+<img src="pics/heart-attack-skeleton.png" alt="Heart Attack" />
+
 ## Background
 ### What is the human heart and what is a heart attack?
 The human heart is a powerful pump. A heart attack (myocardial infarction) happens when a blocked coronary artery prevents oxygenated blood from reaching a section of the heart muscle, leading to tissue death.
@@ -36,5 +38,6 @@ The human heart is a powerful pump. A heart attack (myocardial infarction) happe
 ## Libraries used
 - **Numpy**: A fundamental package for scientific computing in Python. It provides the core data structures and operations for handling numerical data.
 - **Pandas**: A fast, powerful, and flexible library built on top of NumPy, designed specifically for data manipulation and analysis.
+
 
 
