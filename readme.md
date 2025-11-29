@@ -26,13 +26,14 @@ The human heart is a powerful pump. A heart attack (myocardial infarction) happe
   - **Value 1**: Flat
   - **Value 2**: Upsloping
 - **ca**: Number of major vessels colored by fluoroscopy (0-3)
-- **thall**: Results from a thallium stress test, indicating the severity or presence of a condition.
+- **thall**: Results from a thallium stress test, indicating the severity or presence of a condition, otherwise to show how well blood flows to your heart, both at rest and under stress.
   - **Value 1**: Fixed Deflect
   - **Value 2**: Normal
   - **Value 3**: Reversable Deflect
 - **target**: Diagnosis target
   - **0**: Less chance of heart attack
   - **1**: More chance of heart attack
+
 
 
 
