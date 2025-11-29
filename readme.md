@@ -15,13 +15,14 @@ The human heart is a powerful pump. A heart attack (myocardial infarction) happe
 - **chol**: Cholesterol in mg/dl
 - **fbs**: Fasting blood sugar > 120 mg/dl (1 = True; 0 = False)
 - **rest_ecg**: Resting electrocardiographic results
-  - **Value 0**: Normal
-  - **Value 1**: Having ST-T wave abnormality
-  - **Value 2**: Showing probable or definite left ventricular hypertrophy
+  - **Value 0**: Normal (A standard, healthy reading)
+  - **Value 1**: Having ST-T wave abnormality (An irregularity in the reading that can be a sign of heart strain or lack of oxygen)
+  - **Value 2**: Showing probable or definite left ventricular hypertrophy (Indicates the main heart muscle is enlarged, which makes it harder to pump blood effectively)
 - **thalach**: Maximum heart rate achieved
 - **exang**: Exercise induced angina (1 = Yes; 0 = No)
 - **ca**: Number of major vessels colored by fluoroscopy (0-3)
 - **target**: Diagnosis target
   - **0**: Less chance of heart attack
   - **1**: More chance of heart attack
+
 
