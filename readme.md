@@ -33,7 +33,8 @@ The human heart is a powerful pump. A heart attack (myocardial infarction) happe
 - **target**: Diagnosis target
   - **0**: Less chance of heart attack
   - **1**: More chance of heart attack
-
-
+## Libraries used
+- **Numpy**: A fundamental package for scientific computing in Python. It provides the core data structures and operations for handling numerical data.
+- **Pandas**: A fast, powerful, and flexible library built on top of NumPy, designed specifically for data manipulation and analysis.
 
 
