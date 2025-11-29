@@ -20,9 +20,19 @@ The human heart is a powerful pump. A heart attack (myocardial infarction) happe
   - **Value 2**: Showing probable or definite left ventricular hypertrophy (Indicates the main heart muscle is enlarged, which makes it harder to pump blood effectively)
 - **thalach**: Maximum heart rate achieved
 - **exang**: Exercise induced angina (1 = Yes; 0 = No)
+- **oldpeak**: ST depression induced by exercise relative to rest
+- **slp**: The slope of the peak exercise st segment. An ST segment is a brief period between when the heart's lower chambers (ventricles) have finished contracting and when they start to relax and reset for the next beat.
+  - **Value 0**: Downsloping
+  - **Value 1**: Flat
+  - **Value 2**: Upsloping
 - **ca**: Number of major vessels colored by fluoroscopy (0-3)
+- **thall**: Results from a thallium stress test, indicating the severity or presence of a condition.
+  - **Value 1**: Fixed Deflect
+  - **Value 2**: Normal
+  - **Value 3**: Reversable Deflect
 - **target**: Diagnosis target
   - **0**: Less chance of heart attack
   - **1**: More chance of heart attack
+
 
 
