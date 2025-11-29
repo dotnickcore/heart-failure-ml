@@ -38,6 +38,6 @@ The human heart is a powerful pump. A heart attack (myocardial infarction) happe
 ## Libraries used
 - **Numpy**: A fundamental package for scientific computing in Python. It provides the core data structures and operations for handling numerical data.
 - **Pandas**: A fast, powerful, and flexible library built on top of NumPy, designed specifically for data manipulation and analysis.
-
-
-
+- **Matplotlib**: A comprehensive, low-level library for creating static, animated, and interactive visualizations in Python. It gives you fine-grained control over every aspect of a figure.
+- **Seaborn**: A high-level data visualization library built on top of Matplotlib. It provides a more intuitive and aesthetically pleasing interface for creating informative statistical graphics.
+- **Warnings**: A built-in Python module used to handle warning messages.
