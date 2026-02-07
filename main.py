@@ -36,6 +36,7 @@ for i in df.columns:
     isnull_number.append(x)
 
 is_missing_df = pd.DataFrame(isnull_number, index = df.columns, columns = ["Total Missing Values"])
+print(is_missing_df)
 # msno.bar(df, color="b")
 # plt.show()
 
@@ -46,9 +47,10 @@ for i in df.columns:
     is_unique_list.append(x)
 
 is_unique_df = pd.DataFrame(is_unique_list, index = df.columns, columns = ["Total Unique Values"])
+print(is_unique_df)
 
-# Numeric:
-# Categoric: 
+# Numeric: measurable, quantitative information
+# Categoric: qualitative, descriptive labels or groups
 
 numeric_var = ["age", "trtbps", "chol", "thalach", "old_peak"]
 categoric_var = ["sex", "cp", "fbs", "rest_ecg", "exang", "slope", "ca", "thal", "target"]
@@ -68,6 +70,8 @@ sns.displot(data=df, x="chol", kind='kde')
 sns.displot(data=df, x="thalach", kind='kde')
 plt.show()
 """
+
+"""
 numeric_axis_name = ["Age of the Patient", "Resting Blood Pressure", "Cholesterol", "ST Depression"]
 title_font = {"family": "arial", "color": "darkred", "weight": "bold", "size": 15}
 axis_font = {"family": "arial", "color": "darkblue", "weight": "bold", "size": 13}
@@ -84,3 +88,22 @@ for i, z in list(zip(numeric_var, numeric_axis_name)):
     
     plt.tight_layout()
     plt.show()
+"""
+
+categoric_axis_name = ["Gender", "Chest Pain Type", "Fasting Blood Sugar", "Resting Electrocardiographic Results", "Exercise Induced Angina", "The Slope of ST Segment", "Number of Major Vessels", "Thal", "Target"]
+title_font = {"family": "arial", "color": "darkred", "weight": "bold", "size": 15}
+axis_font = {"family": "arial", "color": "darkblue", "weight": "bold", "size": 13}
+
+for i, z in list(zip(categoric_var, categoric_axis_name)):
+    fig, ax = plt.subplots(figsize=(8, 6))  # Fixed: plt.subplots() instead of plt.subplot()
+    
+    observation_values = list(df[i].value_counts().index)
+    total_observation_values = list(df[i].value_counts())
+    
+    ax.pie(total_observation_values, labels=observation_values, autopct='%1.1f%%', 
+           startangle=110, labeldistance=1.1)
+    ax.axis("equal")
+    
+    plt.title((i + "(" + z + ")"), fontdict=title_font)
+    plt.legend()
+    plt.show()  
